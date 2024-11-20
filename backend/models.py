@@ -111,3 +111,14 @@ class Entrevista(db.Model):
             "entCuerpoEntrevista": self.entCuerpoEntrevista,
             "entImagen": self.entImagen
         }
+
+
+    __tablename__ = 'pruebas'
+    pruebasId = db.Column(db.Integer, primary_key=True)
+    nombreid = db.Column(db.String(250))
+
+    def serialize(self):
+        return{
+            "pruebasId" : self.pruebasId,
+            "nombreid" : self.nombreid
+        }
