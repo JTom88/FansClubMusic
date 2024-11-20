@@ -1,0 +1,25 @@
+@font-face {
+    font-family: 'Trance';
+    src: url("../../../assets/whoaskssatan.ttf");
+    font-weight: bold;
+    font-style: normal;
+}
+
+.font_name {
+    font-family: 'Trance';
+    font-size: 30px;
+    color: black;
+}
+
+.font_name:hover{
+    color: red
+}
+
+.font_name:focus {
+    color: red;
+}
+
+.font_name:focus:not(:hover){
+    color: black;
+}
+
