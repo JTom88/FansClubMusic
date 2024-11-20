@@ -92,7 +92,7 @@ export const Navbar = () => {
                 <button>INICIAR SESION</button>
               </Link>
 
-              <Link to="/formularioRegistro">
+              <Link to="/formularioregistro">
                 <button>REGÍSTRATE</button>
               </Link>
             </div>
